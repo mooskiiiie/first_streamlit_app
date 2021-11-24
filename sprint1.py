@@ -12,7 +12,7 @@ df = pd.read_csv("data/2016-2019-voter-data.csv")
 my_page = st.sidebar.radio('Page Navigation', ['page 1', 'page 2', 'page 3', 'page 4' , "page 5"])
 
 if my_page == 'page 1':
-    st.title("Software Eng Sucks!")
+    st.title("Data")
     st.header("2016-2019 Philippine Voter Dataset")
     if st.checkbox('Show data', value = True):
         st.subheader('Data')
